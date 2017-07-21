@@ -1,7 +1,15 @@
 [package]
-name = "ddate"
+name = "discordian-date"
 version = "0.1.0"
 authors = ["Geoff Huston <geoff.huston@gmail.com>"]
+
+[lib]
+name = "discordian_date"
+path = "./lib/lib.rs"
+
+[[bin]]
+name = "ddate"
+path = "./src/main.rs"
 
 [dependencies]
 time = "0.1.38"
