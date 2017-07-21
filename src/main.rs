@@ -4,7 +4,7 @@ use discordian_date::*;
 
 fn main() {
     let ddate = DDate::now();
-    println!("{}", ddate);
+    println!("☯ {}", ddate);
 
     if let Some(holiday) = ddate.get_holiday() {
         println!("Today is {:?}.", holiday);
