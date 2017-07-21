@@ -1,5 +1,5 @@
 [root]
-name = "discordian-date"
+name = "ddate"
 version = "0.1.0"
 dependencies = [
  "ordinal 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",

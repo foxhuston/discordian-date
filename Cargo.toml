@@ -1,5 +1,5 @@
 [package]
-name = "discordian-date"
+name = "ddate"
 version = "0.1.0"
 authors = ["Geoff Huston <geoff.huston@gmail.com>"]
 

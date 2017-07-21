@@ -29,4 +29,14 @@ fn main() {
     } else if dday == 50 {
        println!("Today is {}", seasonal_holidays[season as usize]);
     }
+
+    if year % 4 == 0 && season == 0 {
+       if day == 59 {
+          println!("Tomorrow is St. Tib's day.");
+       }
+
+       if day == 60 {
+          println!("Yesterday was St. Tib's day.");
+       }
+    }
 }
